@@ -42,7 +42,8 @@ for element in root_child_elements:
                 print('converting 1 NOTE to 1 CONC from ' + element.get_pointer())
                 children_indicies_to_delete.append(0)
                 element.new_child_element(GEDCOM_TAG_CONCATENATION, value=children[0].get_value())
-
+                for note_child_element in children[0].get_child_elements():
+                    element.new_child_element(tag=note_child_element.get_tag(), value=note_child_element.get_value())
 
     if isinstance(element, IndividualElement):
         for idx, individual_child_element in enumerate(children):
