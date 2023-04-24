@@ -71,6 +71,8 @@ for element in root_child_elements:
                 children_indicies_to_delete.append(idx)
                 marriage_child_element = element.new_child_element(GEDCOM_TAG_MARRIAGE)
                 marriage_child_element.new_child_element(GEDCOM_TAG_TYPE, value='Common Law')
+                for claw_child_element in family_child_element.get_child_elements():
+                    marriage_child_element.add_child_element(claw_child_element)
 
     for idx in children_indicies_to_delete:
         del(children[idx])
