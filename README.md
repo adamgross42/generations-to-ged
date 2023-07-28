@@ -1,4 +1,4 @@
-This is an opinionated ad-hoc script for cleaning up GED files exported from [Sierra On-Line's Generations EasyTree](https://www.gensoftreviews.com/?p=271).  Despite providing the option to choose [GEDCOM version 5.5](https://gedcom.io/specifications/ged55.pdf), the outputted files are not compliant with the [Chronoplex GEDCOM Validator](https://chronoplexsoftware.com/gedcomvalidator).  This cleans up various syntax issues and avoids unsupported tags.
+This is an opinionated ad-hoc script for cleaning up GED files exported from [Sierra On-Line's Generations EasyTree]([https://www.gensoftreviews.com/?p=271](https://web.archive.org/web/20220721201842/https://www.gensoftreviews.com/?p=271)).  Despite providing the option to choose [GEDCOM version 5.5](https://gedcom.io/specifications/ged55.pdf), the outputted files are not compliant with the [Chronoplex GEDCOM Validator](https://chronoplexsoftware.com/gedcomvalidator).  This cleans up various syntax issues and avoids unsupported tags.
 
 Install dependencies with:
 ```
