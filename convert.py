@@ -7,7 +7,7 @@ import os
 import sys
 
 if (len(sys.argv) < 3):
-    exit('Missing file arguments for input and output - must be a .ged files')
+    exit('Missing file arguments for input and output - must be .ged files')
 input_file = sys.argv[1]
 output_file = sys.argv[2]
 
