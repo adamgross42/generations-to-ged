@@ -1,10 +1,11 @@
+import os
+import sys
+
 from python_gedcom_2.element.element import Element
 from python_gedcom_2.element.family import FamilyElement
 from python_gedcom_2.element.individual import IndividualElement
 from python_gedcom_2.parser import Parser
 from python_gedcom_2.tags import *
-import os
-import sys
 
 if (len(sys.argv) < 3):
     exit('Missing file arguments for input and output - must be .ged files')
